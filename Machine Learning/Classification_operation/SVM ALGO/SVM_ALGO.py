@@ -5,7 +5,7 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 #%%
-df = pd.read_csv("UCI_Credit_Card.csv")
+df = pd.read_csv("D:\\MACHINE LEARNING\\Machine Learning\\CSV FILE//UCI_Credit_Card.csv")
 print(df.head(10))
 print(df.shape)
 df.iloc[[2,3],[5]] = np.nan

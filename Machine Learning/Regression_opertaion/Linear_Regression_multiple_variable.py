@@ -5,6 +5,7 @@ from sklearn.linear_model import LinearRegression
 
 #%%
 df = pd.read_excel("Linear_Regression_multiple_variable.xlsx")
+#df = pd.read_excel("D:\\MACHINE LEARNING\\Machine Learning\\CSV FILE\\Linear_Regression_multiple_variable.xlsx")
 print(df)
 #%%
 print(df.isnull().sum())

@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 #%%
-df = pd.read_csv("data.csv")
+df = pd.read_csv("D:\\MACHINE LEARNING\\Machine Learning\\CSV FILE\\data.csv")
 print(df)
 # split the area and price
 x = df[['area']]
